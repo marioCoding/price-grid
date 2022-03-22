@@ -1,0 +1,102 @@
+/* Stylesheet for priceGrid.html */
+
+body {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center; /* this will center the card horizontally */
+    align-items: center; /* this will center the card vertically */
+    background-color: hsl(204, 43%, 93%);
+    margin-top: 12.5em;
+}
+
+/* Style for the three sub-cards */
+.cardTop{
+    background-color: #fff;
+    width: 40em;
+    padding: 20px 30px 30px 30px;
+    border-radius: 15px 15px 0px 0px;
+}
+.cardLeft {
+    float:left;
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px 10px 30px 30px;
+    border-radius: 0px 0px 0px 15px;
+    width: 18em;
+    margin-right:-10px;
+}
+.cardRight {
+    float: right;
+    background-color: hsl(179, 61%, 47%);
+    padding: 20px 30px 30px 39px;
+    border-radius: 0px 0px 15px 0px;
+    width: 19em;
+}
+
+/* <p> etc. style */
+.topP1 {
+    line-height: 20px;
+}
+.leftP1 {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: -38px;
+    margin-top: -2px;
+    margin-right: 20px;
+}
+.leftP2 {
+    margin-bottom: 37px;
+}
+.perMonth{
+    display: inline-block;
+}
+.button {
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+/* Text color */
+.cardTop h1{
+    color: hsl(179, 62%, 43%);
+    font-weight: lighter;
+}
+.topP1 {
+    color: hsl(71, 73%, 54%);
+}
+.topP2 {
+    color: hsl(218, 22%, 67%);
+}
+.cardLeft {
+    color: #fff;
+}
+.cardLeft h2 {
+    font-weight: lighter;
+}
+.perMonth{
+    color: hsl(204, 43%, 93%);
+}
+.cardRight h2 {
+    color: #fff;
+    font-weight: lighter;
+}
+.cardRight table {
+    color: hsl(204, 43%, 93%);
+}
+
+/* Attribution */
+
+footer {
+    display: block;
+}
+.attribution {
+    display: block;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
